@@ -107,10 +107,10 @@
 								</td>
 								<td>
 								<%
-									String clientname=new RetriveClients().getClientName(projectdtl.get(0));
+									/* String clientname=new RetriveClients().getClientName(projectdtl.get(0)); */
 								
 								%>
-									<input type="text"  class="inputfield" id="clientname" name="clientname" readonly="readonly" value="<%=clientname%>"/>
+									<input type="text"  class="inputfield" id="clientname" name="clientname" readonly="readonly" value="<%=/* clientname */%>"/>
 								</td>
 							</tr>
 						</table>
